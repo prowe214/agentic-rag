@@ -1,0 +1,16 @@
+{
+  "name": "agentic-rag",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Output of tutorial from https://www.freecodecamp.org/news/how-to-build-rag-ai-agents-with-typescript/",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "langbase": "^1.2.3"
+  }
+}
