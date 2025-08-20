@@ -9,6 +9,7 @@ async function main() {
   const memory = await langbase.memories.create({
     name: "knowledge-base",
     description: "An AI memory for agentic memory workshop",
+    // Use "cohere:embed-multilingual-light-v3.0" for free tier, openAI required paid subscription
     embedding_model: "cohere:embed-multilingual-light-v3.0",
   });
 
